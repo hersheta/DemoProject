@@ -1,4 +1,0 @@
-package AB
-
-class inter {
-}
