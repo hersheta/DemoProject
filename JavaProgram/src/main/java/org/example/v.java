@@ -5,4 +5,3 @@ public class v {
         System.out.println("ghdjek");
     }
 }
-"wehdsfkhferjkhfjkgit "
