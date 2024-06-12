@@ -1,0 +1,44 @@
+//Takes Screenshot
+TakesScreenshot ts=TakesScreenshot(driver);
+File src=ts.getScreenshotAs(OUTPUTTYPE.FILE)// take image filr
+File des=new File(Path);
+FileUtils.copyfile(src,des);
+
+// switch to specific window
+Set<String>allwindow=driver.getWindowHandles();
+for( String childwindindow:allwindow)
+if(!childwindow.equals(allwindow)){
+driver.switchTo().childwindow();
+}
+//Wait
+WebDriverWait wait=new WebDriverWait(driver,30);
+wait.until(ExpectedConditions.VisibilityofElementLocated(By.xpath();
+//Read Data from excel
+
+FileInputStream fis=new FileInputStream();
+XSSFWorkBook wb=new XSSFWorbook(fis);
+Sheet s=wb.getSheetAs(1);
+Row r=s.getrow();
+Cell c =r.getcellvalue(0);
+
+//Cookies
+Cookies cookie=new Cookies("Test","Test1");
+driver.manage.deleteCookies()h;
+driver.manage.addcookies();
+
+//links
+List<WebElement>link=driver.findElement(By.tagName("//a");
+sout(link.size()):
+//send HTTP request to find the broken links
+HTTPOpenURLConnection connection=(HTTPOpenURLConnection)new URL());
+connection.connect();
+connection.setRequstMehtod();
+int ResponseCode=connection.getResponseCode();
+if(responsecode>=400){
+sout("broken link");
+else{
+sout("no");
+}
+//Headhless Mode
+ChromeOptions option=new ChromeOptions();
+option.addarguements(--headless);
