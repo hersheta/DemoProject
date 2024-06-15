@@ -9,5 +9,8 @@
         <module name="faq" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="faq" target="20" />
+    </bytecodeTargetLevel>
   </component>
 </project>
